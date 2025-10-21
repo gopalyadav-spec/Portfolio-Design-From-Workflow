@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gopal Kumar Yadav - Designer & Writer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* A little custom CSS for smooth scrolling and font */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-slate-950 font-sans leading-normal tracking-normal text-slate-300">
+
+    <!-- Header / Hero Section -->
+    <header class="py-20 md:py-32">
+        <div class="container mx-auto px-6 text-center">
+            <div class="flex justify-center mb-8">
+                <img 
+                  src="https://placehold.co/128x128/1F2937/FFFFFF?text=GKY" 
+                  alt="Gopal Kumar Yadav Profile"
+                  class="rounded-full border-4 border-slate-700 shadow-lg"
+                />
+            </div>
+            <h1 class="text-4xl md:text-6xl font-bold text-white tracking-tight">
+                Gopal Kumar Yadav
+            </h1>
+            <p class="mt-4 text-xl md:text-2xl text-teal-400">
+                Creative Designer & Writer
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about" class="py-20 bg-slate-900">
+            <div class="container mx-auto px-6 max-w-4xl">
+                <h2 class="text-3xl font-bold text-center text-white mb-8">About Me</h2>
+                <p class="text-lg leading-relaxed text-center">
+                    I'm a multidisciplinary creative with a passion for building beautiful, user-centric designs and weaving compelling narratives. With a background in both visual arts and professional writing, I bridge the gap between aesthetics and communication. My goal is to create experiences that are not only visually stunning but also clear, impactful, and memorable.
+                </p>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center text-white mb-12">My Work</h2>
+                
+                <!-- Tab Navigation -->
+                <div class="flex justify-center gap-4 mb-12">
+                    <button id="design-tab" class="px-6 py-2 rounded-full text-sm font-semibold transition-all duration-300 bg-teal-500 text-white shadow-md">
+                        Design Projects
+                    </button>
+                    <button id="writing-tab" class="px-6 py-2 rounded-full text-sm font-semibold transition-all duration-300 bg-slate-700 text-slate-300 hover:bg-slate-600">
+                        Writing Samples
+                    </button>
+                </div>
+
+                <!-- Content -->
+                <div>
+                    <!-- Design Projects Grid -->
+                    <div id="design-content" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <!-- Project 1 -->
+                        <div class="bg-slate-800 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300 group">
+                            <img src="https://placehold.co/600x400/14B8A6/FFFFFF?text=Aura+Wellness" alt="Rebrand for Aura Wellness" class="w-full h-48 object-cover">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-white mb-2">Rebrand for Aura Wellness</h3>
+                                <p class="text-teal-400 text-sm mb-3">Branding & UI/UX</p>
+                                <p class="text-slate-400 text-sm mb-4">A complete brand overhaul and website redesign for a modern wellness app, focusing on calming color palettes and intuitive user flows.</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="bg-slate-700 text-teal-300 text-xs font-semibold px-2.5 py-1 rounded-full">UI/UX</span>
+                                    <span class="bg-slate-700 text-teal-300 text-xs font-semibold px-2.5 py-1 rounded-full">Branding</span>
+                                    <span class="bg-slate-700 text-teal-300 text-xs font-semibold px-2.5 py-1 rounded-full">Figma</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project 2 -->
+                        <div class="bg-slate-800 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300 group">
+                            <img src="https://placehold.co/600x400/3B82F6/FFFFFF?text=Nova+SaaS" alt="Nova Landing Page" class="w-full h-48 object-cover">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-white mb-2">Nova Landing Page</h3>
+                                <p class="text-teal-400 text-sm mb-3">Web Design</p>
+                                <p class="text-slate-400 text-sm mb-4">A high-conversion landing page for a SaaS startup, featuring bold typography and interactive elements to drive user engagement.</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="bg-slate-700 text-teal-300 text-xs font-semibold px-2.5 py-1 rounded-full">Web Design</span>
+                                    <span class="bg-slate-700 text-teal-300 text-xs font-semibold px-2.5 py-1 rounded-full">CRO</span>
+                                    <span class="bg-slate-700 text-teal-300 text-xs font-semibold px-2.5 py-1 rounded-full">Animation</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project 3 -->
+                        <div class="bg-slate-800 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300 group">
+                            <img src="https://placehold.co/600x400/8B5CF6/FFFFFF?text=Fashion+App" alt="E-commerce Mobile App" class="w-full h-48 object-cover">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-white mb-2">E-commerce Mobile App</h3>
+                                <p class="text-teal-400 text-sm mb-3">Mobile App Design</p>
+                                <p class="text-slate-400 text-sm mb-4">Designed a streamlined mobile shopping experience for a fashion retailer, focusing on easy navigation and a clean checkout process.</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="bg-slate-700 text-teal-300 text-xs font-semibold px-2.5 py-1 rounded-full">Mobile UI</span>
+                                    <span class="bg-slate-700 text-teal-300 text-xs font-semibold px-2.5 py-1 rounded-full">E-commerce</span>
+                                    <span class="bg-slate-700 text-teal-300 text-xs font-semibold px-2.5 py-1 rounded-full">Prototyping</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Writing Samples Grid -->
+                    <div id="writing-content" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 hidden">
+                        <!-- Sample 1 -->
+                        <a href="#" class="block bg-slate-800 rounded-lg p-6 shadow-lg transform hover:-translate-y-2 transition-transform duration-300 group hover:bg-slate-700">
+                            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-teal-400 transition-colors">The Art of Storytelling in Marketing</h3>
+                            <p class="text-teal-400 text-sm mb-3">Published on Medium</p>
+                            <p class="text-slate-400 text-sm mb-4 leading-relaxed">"Beyond the buzzwords and analytics lies a fundamental truth: humans connect through stories. This article explores how brands can leverage narrative..."</p>
+                            <div class="flex flex-wrap gap-2 mt-auto">
+                                <span class="bg-slate-700 group-hover:bg-slate-600 text-teal-300 text-xs font-semibold px-2.5 py-1 rounded-full">Content Strategy</span>
+                                <span class="bg-slate-700 group-hover:bg-slate-600 text-teal-300 text-xs font-semibold px-2.5 py-1 rounded-full">Marketing</span>
+                            </div>
+                        </a>
+                        <!-- Sample 2 -->
+                        <a href="#" class="block bg-slate-800 rounded-lg p-6 shadow-lg transform hover:-translate-y-2 transition-transform duration-300 group hover:bg-slate-700">
+                            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-teal-400 transition-colors">UX Copywriting: 10 Tips for Clearer Microcopy</h3>
+                            <p class="text-teal-400 text-sm mb-3">Company Blog Post</p>
+                            <p class="text-slate-400 text-sm mb-4 leading-relaxed">"Every word on an interface matters. From button labels to error messages, effective microcopy can make or break the user experience..."</p>
+                            <div class="flex flex-wrap gap-2 mt-auto">
+                                <span class="bg-slate-700 group-hover:bg-slate-600 text-teal-300 text-xs font-semibold px-2.5 py-1 rounded-full">UX Writing</span>
+                                <span class="bg-slate-700 group-hover:bg-slate-600 text-teal-300 text-xs font-semibold px-2.5 py-1 rounded-full">Best Practices</span>
+                            </div>
+                        </a>
+                        <!-- Sample 3 -->
+                        <a href="#" class="block bg-slate-800 rounded-lg p-6 shadow-lg transform hover:-translate-y-2 transition-transform duration-300 group hover:bg-slate-700">
+                            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-teal-400 transition-colors">Website Copy for 'Innovate Tech'</h3>
+                            <p class="text-teal-400 text-sm mb-3">Client Project</p>
+                            <p class="text-slate-400 text-sm mb-4 leading-relaxed">"Crafted the entire website copy for a B2B tech firm, translating complex technical features into benefit-driven, accessible language..."</p>
+                            <div class="flex flex-wrap gap-2 mt-auto">
+                                <span class="bg-slate-700 group-hover:bg-slate-600 text-teal-300 text-xs font-semibold px-2.5 py-1 rounded-full">Copywriting</span>
+                                <span class="bg-slate-700 group-hover:bg-slate-600 text-teal-300 text-xs font-semibold px-2.5 py-1 rounded-full">B2B</span>
+                                <span class="bg-slate-700 group-hover:bg-slate-600 text-teal-300 text-xs font-semibold px-2.5 py-1 rounded-full">Web Content</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-20 bg-slate-900">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center text-white mb-12">Skills & Expertise</h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+                    <!-- Skill 1 -->
+                    <div class="flex flex-col items-center text-center p-4 bg-slate-800 rounded-lg transition-all duration-300 hover:bg-slate-700 hover:shadow-teal-500/10 shadow-lg">
+                        <div class="text-teal-400 mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12h-2a2 2 0 0 1 -2 -2v-2a2 2 0 0 1 2 -2h2v6zm2 0v-6h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2zm-4 2h2v6h-2a2 2 0 0 1 -2 -2v-2a2 2 0 0 1 2 -2z"></path></svg>
+                        </div>
+                        <h3 class="font-semibold text-white">Figma</h3>
+                    </div>
+                     <!-- Skill 2 -->
+                    <div class="flex flex-col items-center text-center p-4 bg-slate-800 rounded-lg transition-all duration-300 hover:bg-slate-700 hover:shadow-teal-500/10 shadow-lg">
+                        <div class="text-teal-400 mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4l-2 3h4l-2 -3zm8 0l-2 3h4l-2 -3zM6 20l2 -3h-4l2 3zm8 0l2 -3h-4l2 3zM10 4h4v3h-4zM10 17h4v3h-4zM4 7h3v10H4zM17 7h3v10h-3z"></path></svg>
+                        </div>
+                        <h3 class="font-semibold text-white">Adobe XD</h3>
+                    </div>
+                     <!-- Skill 3 -->
+                    <div class="flex flex-col items-center text-center p-4 bg-slate-800 rounded-lg transition-all duration-300 hover:bg-slate-700 hover:shadow-teal-500/10 shadow-lg">
+                        <div class="text-teal-400 mb-3">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 8.5a.5 .5 0 0 1 .5 -.5h1a.5 .5 0 0 1 .5 .5v7a.5 .5 0 0 1 -.5 .5h-1a.5 .5 0 0 1 -.5 -.5v-7zm6 0a.5 .5 0 0 1 .5 -.5h.5a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-.5a.5 .5 0 0 1 -.5 -.5v-1.5zM14 14.5a.5 .5 0 0 1 .5 -.5h1a.5 .5 0 0 1 .5 .5v1a.5 .5 0 0 1 -.5 .5h-1a.5 .5 0 0 1 -.5 -.5v-1z"></path></svg>
+                        </div>
+                        <h3 class="font-semibold text-white">Illustrator</h3>
+                    </div>
+                     <!-- Skill 4 -->
+                    <div class="flex flex-col items-center text-center p-4 bg-slate-800 rounded-lg transition-all duration-300 hover:bg-slate-700 hover:shadow-teal-500/10 shadow-lg">
+                        <div class="text-teal-400 mb-3">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h3M18 12h3M12 3v3M12 18v3M7.5 7.5l-2.12 2.12M16.62 16.62l-2.12 2.12M7.5 16.5l-2.12-2.12M16.62 7.38l-2.12-2.12M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z"></path></svg>
+                        </div>
+                        <h3 class="font-semibold text-white">Prototyping</h3>
+                    </div>
+                     <!-- Skill 5 -->
+                    <div class="flex flex-col items-center text-center p-4 bg-slate-800 rounded-lg transition-all duration-300 hover:bg-slate-700 hover:shadow-teal-500/10 shadow-lg">
+                        <div class="text-teal-400 mb-3">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path><path d="M21 21l-3.5 -3.5"></path><path d="M3.63 8.63L12 12l8.37 -3.37"></path></svg>
+                        </div>
+                        <h3 class="font-semibold text-white">SEO Writing</h3>
+                    </div>
+                     <!-- Skill 6 -->
+                    <div class="flex flex-col items-center text-center p-4 bg-slate-800 rounded-lg transition-all duration-300 hover:bg-slate-700 hover:shadow-teal-500/10 shadow-lg">
+                        <div class="text-teal-400 mb-3">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path><path d="M9 12h6"></path><path d="M9 15h3"></path></svg>
+                        </div>
+                        <h3 class="font-semibold text-white">Copywriting</h3>
+                    </div>
+                    <!-- Skill 7 -->
+                    <div class="flex flex-col items-center text-center p-4 bg-slate-800 rounded-lg transition-all duration-300 hover:bg-slate-700 hover:shadow-teal-500/10 shadow-lg">
+                        <div class="text-teal-400 mb-3">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 6l-6 6l-4 -4"></path><path d="M18 10l-6 6l-2 -2"></path></svg>
+                        </div>
+                        <h3 class="font-semibold text-white">Content Strategy</h3>
+                    </div>
+                    <!-- Skill 8 -->
+                    <div class="flex flex-col items-center text-center p-4 bg-slate-800 rounded-lg transition-all duration-300 hover:bg-slate-700 hover:shadow-teal-500/10 shadow-lg">
+                        <div class="text-teal-400 mb-3">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 9v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1z"></path><path d="M13 5h2a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"></path><path d="M7 7h2a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1z"></path></svg>
+                        </div>
+                        <h3 class="font-semibold text-white">Brand Voice</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer / Contact Section -->
+    <footer id="contact" class="py-16 bg-slate-950 border-t border-slate-800">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-white mb-4">Let's Connect</h2>
+            <p class="text-slate-400 mb-8 max-w-xl mx-auto">
+                I'm currently available for freelance projects and new opportunities. Feel free to reach out!
+            </p>
+            <a 
+                href="mailto:hello@alexdoe.com" 
+                class="inline-block bg-teal-500 text-white font-bold py-3 px-8 rounded-full hover:bg-teal-600 transition-colors duration-300 text-lg shadow-lg"
+            >
+                hello@gopalyadav.com
+            </a>
+            <div class="flex justify-center gap-6 mt-12">
+                <a href="https://www.linkedin.com/in/alexdoe" target="_blank" rel="noopener noreferrer" class="text-slate-500 hover:text-teal-400 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="https://dribbble.com/alexdoe" target="_blank" rel="noopener noreferrer" class="text-slate-500 hover:text-teal-400 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"></path></svg>
+                </a>
+                <a href="https://github.com/alexdoe" target="_blank" rel="noopener noreferrer" class="text-slate-500 hover:text-teal-400 transition-colors">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+            </div>
+            <div class="mt-12 text-sm text-slate-600">
+                <p>&copy; 2025 Gopal Kumar Yadav. All Rights Reserved By Gopal.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const designTab = document.getElementById('design-tab');
+        const writingTab = document.getElementById('writing-tab');
+        const designContent = document.getElementById('design-content');
+        const writingContent = document.getElementById('writing-content');
+
+        const activeClasses = ['bg-teal-500', 'text-white', 'shadow-md'];
+        const inactiveClasses = ['bg-slate-700', 'text-slate-300', 'hover:bg-slate-600'];
+
+        designTab.addEventListener('click', () => {
+            // Show design content, hide writing content
+            designContent.classList.remove('hidden');
+            writingContent.classList.add('hidden');
+
+            // Style design tab as active
+            designTab.classList.add(...activeClasses);
+            designTab.classList.remove(...inactiveClasses);
+            
+            // Style writing tab as inactive
+            writingTab.classList.add(...inactiveClasses);
+            writingTab.classList.remove(...activeClasses);
+        });
+
+        writingTab.addEventListener('click', () => {
+            // Show writing content, hide design content
+            writingContent.classList.remove('hidden');
+            designContent.classList.add('hidden');
+            
+            // Style writing tab as active
+            writingTab.classList.add(...activeClasses);
+            writingTab.classList.remove(...inactiveClasses);
+
+            // Style design tab as inactive
+            designTab.classList.add(...inactiveClasses);
+            designTab.classList.remove(...activeClasses);
+        });
+    </script>
+
+</body>
+</html>
